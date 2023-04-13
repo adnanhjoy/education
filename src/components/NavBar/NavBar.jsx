@@ -1,19 +1,37 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import './NavBar.css';
+// import './NavBar.css';
 import logo from '../../logo.svg';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { LinkContainer } from 'react-router-bootstrap';
 
 const NavBar = () => {
     return (
-        <nav className='navbar'>
-            <img src={logo} alt="" />
-            <div>
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/courses'>Courses</NavLink>
-                <NavLink to='/dashboard'>Dashboard</NavLink>
-                <NavLink to='/about'>About</NavLink>
-            </div>
-        </nav>
+        <Navbar bg="black" variant="dark" expand="lg">
+            <Container>
+                <LinkContainer to="/">
+                    <Navbar.Brand img={logo}></Navbar.Brand>
+                </LinkContainer>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                        <LinkContainer to="/">
+                            <Nav.Link>Home</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/courses">
+                            <Nav.Link>Courses</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/dashboard">
+                            <Nav.Link>Dashboard</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/about">
+                            <Nav.Link>About</Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
 
