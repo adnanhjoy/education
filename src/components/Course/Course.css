@@ -1,0 +1,33 @@
+.course{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+.course img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.course p{
+    margin: 0px 0px 10px;
+}
+.enroll-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    color: orange;
+    font-weight: 600;
+}
+.enroll-btn{
+    padding: 10px 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+}
+.enroll-btn:hover{
+    background-color: #a350f0;
+}

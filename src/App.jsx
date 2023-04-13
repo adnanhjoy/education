@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 import Courses from './components/Courses/Courses'
 import Dashboard from './components/Dashboard/Dashboard'
 import About from './components/About/About'
+import Errorpage from './components/Errorpage/Errorpage'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
         },
         {
           path: 'courses',
-          element: <Courses></Courses>
+          element: <Courses></Courses>,
+          loader: () => fetch('courses.json')
         },
         {
           path: 'dashboard',
@@ -30,6 +32,10 @@ function App() {
           element: <About></About>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <Errorpage></Errorpage>
     }
   ])
 
