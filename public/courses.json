@@ -1,0 +1,65 @@
+[
+    {
+        "id": "cja45644",
+        "img": "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "PHP and Laravel Development",
+        "author": "Shihab Uddin",
+        "price": 1500
+    },
+    {
+        "id": "cja45646",
+        "img": "https://images.unsplash.com/photo-1532619187608-e5375cab36aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvdXJzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Figma Crash Course",
+        "author": "Md. Azizul",
+        "price": 1200
+    },
+    {
+        "id": "cja45647",
+        "img": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y291cnNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Basic HTML and CSS with Bootstrap",
+        "author": "Hasibul Hasan",
+        "price": 2500
+    },
+    {
+        "id": "cja45648",
+        "img": "https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z3JhcGhpY3MlMjBkZXNpZ24lMjBjb3Vyc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "name": "Web Design and Development",
+        "author": "Adnan Hossain",
+        "price": 3000
+    },
+    {
+        "id": "cja45649",
+        "img": "https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGdyYXBoaWNzJTIwZGVzaWduJTIwY291cnNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Graphics and motion design",
+        "author": "Khademul Islam",
+        "price": 1800
+    },
+    {
+        "id": "cja45650",
+        "img": "https://images.unsplash.com/photo-1542744174-7c97c32b00b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3JhcGhpY3MlMjBkZXNpZ24lMjBjb3Vyc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "name": "Graphics Design",
+        "author": "Rasel Mahmud",
+        "price": 1500
+    },
+    {
+        "id": "cja45651",
+        "img": "https://plus.unsplash.com/premium_photo-1676651178953-4e4400aafa2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Digital marketing and SEO",
+        "author": "Md. Momin",
+        "price": 2000
+    },
+    {
+        "id": "cja45652",
+        "img": "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "name": "Web Research and IT Specialist",
+        "author": "Md. Moniruzzaman",
+        "price": 1000
+    },
+    {
+        "id": "cja45653",
+        "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "name": "Architecture & Civil Engineering",
+        "author": "Shamim Hossain",
+        "price": 2500
+    }
+]
