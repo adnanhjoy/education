@@ -1,5 +1,4 @@
 import React from 'react';
-// import './NavBar.css';
 import logo from '../../logo.svg';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -11,7 +10,9 @@ const NavBar = () => {
         <Navbar bg="black" variant="dark" expand="lg">
             <Container>
                 <LinkContainer to="/">
-                    <Navbar.Brand img={logo}></Navbar.Brand>
+                    <Navbar.Brand>
+                        <img src={logo} alt="" />
+                    </Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
